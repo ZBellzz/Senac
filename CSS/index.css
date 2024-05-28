@@ -1,0 +1,105 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+
+  }
+
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;/*poder alterar a posição*/
+    align-items: center; /*centralizar verticalmente*/
+    justify-content: center; /*centralizar horizontalmente  */
+    background-image: url(../IMAGENS/BACKGROUND.jpg);
+    position: relative;
+    background-size: cover;
+  }
+
+  .container{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 		#1C1C1C
+
+  }
+
+  form{
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+
+  }
+
+  .buttonsform{
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 14px 0 #B22222;
+  }
+
+  .buttonsform button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+    color: white;
+  }
+
+  .btncolor{
+    position: absolute;
+    width: 108px;
+    height: 36px;
+background: linear-gradient( to right, #8B0000, #B22222);
+    border-radius: 30px;
+    transition: .3s;
+  }
+
+  input[type="text"], input[type="password"] {
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px ;
+    outline: none;
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    background: #B22222;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+
+  .divcheck{
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+  }
+
+  #logar {
+    left: 25px;
+  }
+
+  #cadrastar {
+    left: 450px;
+  }
