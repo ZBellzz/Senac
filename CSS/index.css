@@ -36,6 +36,20 @@
 
   }
 
+  
+
+
+.entrar button:hover{
+  background-color: transparent;
+  color: #B22222;
+  transform-origin: scale(1.1);
+  box-shadow: 0 0 10px white;
+  cursor: grab;
+  border: solid white;
+  border-radius: 30px;
+ 
+}
+  
   form{
     position: absolute;
     margin-top: 80px;
@@ -56,7 +70,7 @@
     background: transparent;
     border: none;
     position: relative;
-    padding: 10px 29px;
+    padding: 10px 43px;
     color: white;
   }
 
@@ -92,8 +106,15 @@ background: linear-gradient( to right, #8B0000, #B22222);
 
   .divcheck{
     margin: 10px 0 0 5px;
-    width: 80%;
+    width: 90%;
     font-size: 13px;
+
+  }
+
+  .divcheck a {
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
   }
 
   #logar {
