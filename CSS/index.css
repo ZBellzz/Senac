@@ -36,13 +36,12 @@
 
   }
 
-  
 
 
 .entrar button:hover{
   background-color: transparent;
   color: #B22222;
-  transform-origin: scale(1.1);
+  transform: scale(1.2);
   box-shadow: 0 0 10px white;
   cursor: grab;
   border: solid white;
@@ -70,7 +69,7 @@
     background: transparent;
     border: none;
     position: relative;
-    padding: 10px 43px;
+    padding: 10px 29px;
     color: white;
   }
 
@@ -80,7 +79,7 @@
     height: 36px;
 background: linear-gradient( to right, #8B0000, #B22222);
     border-radius: 30px;
-    transition: .3s;
+    transition: 3s;
   }
 
   input[type="text"], input[type="password"] {
@@ -115,6 +114,12 @@ background: linear-gradient( to right, #8B0000, #B22222);
     color: white;
     text-decoration: none;
     padding-left: 50px;
+
+  }
+
+  .divcheck a:hover{
+    color: #B22222;
+
   }
 
   #logar {
