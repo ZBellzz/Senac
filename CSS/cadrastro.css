@@ -24,10 +24,10 @@
     padding: 12px;
     border-radius: 15px;
     width: 350px;
-    height: 450px;
+    height: 550px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 20px 0 		#1C1C1C
@@ -54,3 +54,25 @@
     margin-top: 40px;
     cursor: pointer;
   }
+
+  .cadrastar button:hover{
+    background-color: transparent;
+    color: #B22222;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px white;
+    cursor: grab;
+    border: solid white;
+    border-radius: 30px;
+  
+  }
+
+  input[type="text"], input[type="password"] {
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px ;
+    outline: none;
+    width: 100%;
+  }
+
+ 
