@@ -1,7 +1,7 @@
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: -4px;
+    margin-left:2px;
     box-sizing: border-box;
     font-family: "Sedan SC", serif;
 
@@ -13,7 +13,7 @@
     display: flex;/*poder alterar a posição*/
     align-items: center; /*centralizar verticalmente*/
     justify-content: center; /*centralizar horizontalmente  */
-    background-image: url(../IMAGENS/BACKGROUND.jpg);
+    background-image: url(../IMAGENS/BACKGROUND2.jpg);
     position: relative;
     background-size: cover;
   }
@@ -75,4 +75,15 @@
     width: 100%;
   }
 
+  .Entre a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding-left:4px;
+    padding: 4px;
+  }
+
+  .Entre a:hover{
+    color: #B22222;
+  }
  
